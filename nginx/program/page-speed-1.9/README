@@ -1,0 +1,11 @@
+Page Speed SDK includes build files for Windows (Visual Studio) and
+Linux Make-based build sytems.
+
+For an example Makefile integration, see example/make/Makefile.
+
+For an example that shows how to integrate the Page Speed SDK, see
+pagespeed/samples/har_to_pagespeed.cc.
+
+If you have additional questions about integrating the Page Speed SDK,
+the Page Speed team would be happy to help. Please visit our
+discussion forum: https://groups.google.com/group/page-speed-discuss

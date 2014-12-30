@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject Keyword="Win32Proj" Name="pagespeed_library" ProjectGUID="{AA8E18A2-98D2-3873-6F2D-E71BC03422F5}" ProjectType="Visual C++" RootNamespace="pagespeed_library" Version="8.00">
+  <Platforms>
+    <Platform Name="Win32"/>
+  </Platforms>
+  <ToolFiles/>
+  <Configurations>
+    <Configuration CharacterSet="1" ConfigurationType="4" IntermediateDirectory="$(OutDir)\obj\$(ProjectName)" Name="Release|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)">
+      <Tool AdditionalIncludeDirectories="..\third_party\chromium\src;..;..\third_party\instaweb\src;..\third_party\protobuf2\src\vsprojects;..\third_party\protobuf2\src\src;..\third_party\zlib;$(OutDir)\obj\global_intermediate\protoc_out;$(VSInstallDir)\VC\atlmfc\include" AdditionalOptions="/we4389" BufferSecurityCheck="true" DebugInformationFormat="3" DisableSpecificWarnings="4351;4396;4503;4819" EnableFunctionLevelLinking="true" ExceptionHandling="1" InlineFunctionExpansion="2" MinimalRebuild="false" Name="VCCLCompilerTool" OmitFramePointers="true" Optimization="2" Optimizations="2" PreprocessorDefinitions="&quot;_WIN32_WINNT=0x0600&quot;;&quot;WINVER=0x0600&quot;;&quot;WIN32&quot;;&quot;_WINDOWS&quot;;&quot;NOMINMAX&quot;;&quot;_CRT_RAND_S&quot;;&quot;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS&quot;;&quot;WIN32_LEAN_AND_MEAN&quot;;&quot;_SECURE_ATL&quot;;&quot;_ATL_NO_OPENGL&quot;;&quot;GOOGLE_PROTOBUF_NO_RTTI&quot;;&quot;PAGESPEED_PNG_OPTIMIZER_GIF_READER&quot;;&quot;__STDC_FORMAT_MACROS&quot;;&quot;NDEBUG&quot;" ProgramDataBaseFileName="$(IntDir)\$(ProjectName)\vc80.pdb" RuntimeLibrary="0" RuntimeTypeInfo="false" StringPooling="true" WarnAsError="true" WarningLevel="3"/>
+      <Tool AdditionalIncludeDirectories="..;$(OutDir)\obj\global_intermediate;..\third_party\chromium\src;..;..\third_party\instaweb\src;..\third_party\protobuf2\src\vsprojects;..\third_party\protobuf2\src\src;..\third_party\zlib;$(OutDir)\obj\global_intermediate\protoc_out;$(VSInstallDir)\VC\atlmfc\include" Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="&quot;_WIN32_WINNT=0x0600&quot;;&quot;WINVER=0x0600&quot;;&quot;WIN32&quot;;&quot;_WINDOWS&quot;;&quot;NOMINMAX&quot;;&quot;_CRT_RAND_S&quot;;&quot;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS&quot;;&quot;WIN32_LEAN_AND_MEAN&quot;;&quot;_SECURE_ATL&quot;;&quot;_ATL_NO_OPENGL&quot;;&quot;GOOGLE_PROTOBUF_NO_RTTI&quot;;&quot;PAGESPEED_PNG_OPTIMIZER_GIF_READER&quot;;&quot;__STDC_FORMAT_MACROS&quot;;&quot;NDEBUG&quot;"/>
+      <Tool DLLDataFileName="dlldata.c" GenerateStublessProxies="true" HeaderFileName="$(InputName).h" InterfaceIdentifierFileName="$(InputName)_i.c" Name="VCMIDLTool" OutputDirectory="$(IntDir)" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+      <Tool AdditionalOptions="/ignore:4221" Name="VCLibrarianTool" OutputFile="$(OutDir)\lib\$(ProjectName).lib"/>
+      <Tool AdditionalDependencies="dbghelp.lib ws2_32.lib" AdditionalOptions="/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat" EnableCOMDATFolding="2" FixedBaseAddress="1" GenerateDebugInformation="true" ImportLibrary="$(OutDir)\lib\$(TargetName).lib" LinkIncremental="1" MapFileName="$(OutDir)\$(TargetName).map" Name="VCLinkerTool" OptimizeForWindows98="1" OptimizeReferences="2" SubSystem="1" TargetMachine="1"/>
+    </Configuration>
+    <Configuration CharacterSet="1" ConfigurationType="4" IntermediateDirectory="$(OutDir)\obj\$(ProjectName)" Name="Debug|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)">
+      <Tool AdditionalIncludeDirectories="..\third_party\chromium\src;..;..\third_party\instaweb\src;..\third_party\protobuf2\src\vsprojects;..\third_party\protobuf2\src\src;..\third_party\zlib;$(OutDir)\obj\global_intermediate\protoc_out;$(VSInstallDir)\VC\atlmfc\include" AdditionalOptions="/we4389" BasicRuntimeChecks="3" BufferSecurityCheck="true" DebugInformationFormat="3" DisableSpecificWarnings="4351;4396;4503;4819" EnableFunctionLevelLinking="true" ExceptionHandling="1" MinimalRebuild="false" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="_DEBUG;&quot;_WIN32_WINNT=0x0600&quot;;&quot;WINVER=0x0600&quot;;&quot;WIN32&quot;;&quot;_WINDOWS&quot;;&quot;NOMINMAX&quot;;&quot;_CRT_RAND_S&quot;;&quot;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS&quot;;&quot;WIN32_LEAN_AND_MEAN&quot;;&quot;_SECURE_ATL&quot;;&quot;_ATL_NO_OPENGL&quot;;&quot;GOOGLE_PROTOBUF_NO_RTTI&quot;;&quot;PAGESPEED_PNG_OPTIMIZER_GIF_READER&quot;;&quot;__STDC_FORMAT_MACROS&quot;;&quot;DYNAMIC_ANNOTATIONS_ENABLED=1&quot;" ProgramDataBaseFileName="$(IntDir)\$(ProjectName)\vc80.pdb" RuntimeLibrary="1" RuntimeTypeInfo="false" WarnAsError="true" WarningLevel="3"/>
+      <Tool AdditionalIncludeDirectories="..;$(OutDir)\obj\global_intermediate;..\third_party\chromium\src;..;..\third_party\instaweb\src;..\third_party\protobuf2\src\vsprojects;..\third_party\protobuf2\src\src;..\third_party\zlib;$(OutDir)\obj\global_intermediate\protoc_out;$(VSInstallDir)\VC\atlmfc\include" Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG;&quot;_WIN32_WINNT=0x0600&quot;;&quot;WINVER=0x0600&quot;;&quot;WIN32&quot;;&quot;_WINDOWS&quot;;&quot;NOMINMAX&quot;;&quot;_CRT_RAND_S&quot;;&quot;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS&quot;;&quot;WIN32_LEAN_AND_MEAN&quot;;&quot;_SECURE_ATL&quot;;&quot;_ATL_NO_OPENGL&quot;;&quot;GOOGLE_PROTOBUF_NO_RTTI&quot;;&quot;PAGESPEED_PNG_OPTIMIZER_GIF_READER&quot;;&quot;__STDC_FORMAT_MACROS&quot;;&quot;DYNAMIC_ANNOTATIONS_ENABLED=1&quot;"/>
+      <Tool DLLDataFileName="dlldata.c" GenerateStublessProxies="true" HeaderFileName="$(InputName).h" InterfaceIdentifierFileName="$(InputName)_i.c" Name="VCMIDLTool" OutputDirectory="$(IntDir)" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+      <Tool AdditionalOptions="/ignore:4221" Name="VCLibrarianTool" OutputFile="$(OutDir)\lib\$(ProjectName).lib"/>
+      <Tool AdditionalDependencies="dbghelp.lib ws2_32.lib" AdditionalOptions="/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat" FixedBaseAddress="1" GenerateDebugInformation="true" ImportLibrary="$(OutDir)\lib\$(TargetName).lib" LinkIncremental="2" MapFileName="$(OutDir)\$(TargetName).map" Name="VCLinkerTool" SubSystem="1" TargetMachine="1"/>
+    </Configuration>
+  </Configurations>
+  <References/>
+  <Files>
+    <File RelativePath="pagespeed.gyp"/>
+    <Filter Name="rules">
+      <File RelativePath="rules\specify_a_cache_validator.cc"/>
+      <File RelativePath="rules\avoid_document_write.cc"/>
+      <File RelativePath="rules\specify_image_dimensions.cc"/>
+      <File RelativePath="rules\optimize_the_order_of_styles_and_scripts.cc"/>
+      <File RelativePath="rules\minimize_dns_lookups.cc"/>
+      <File RelativePath="rules\combine_external_resources.cc"/>
+      <File RelativePath="rules\enable_gzip_compression.cc"/>
+      <File RelativePath="rules\minify_javascript.cc"/>
+      <File RelativePath="rules\avoid_bad_requests.cc"/>
+      <File RelativePath="rules\rule_provider.cc"/>
+      <File RelativePath="rules\remove_query_strings_from_static_resources.cc"/>
+      <File RelativePath="rules\minimize_request_size.cc"/>
+      <File RelativePath="rules\parallelize_downloads_across_hostnames.cc"/>
+      <File RelativePath="rules\minimize_redirects.cc"/>
+      <File RelativePath="rules\leverage_browser_caching.cc"/>
+      <File RelativePath="rules\serve_static_content_from_a_cookieless_domain.cc"/>
+      <File RelativePath="rules\savings_computer.cc"/>
+      <File RelativePath="rules\optimize_images.cc"/>
+      <File RelativePath="rules\put_css_in_the_document_head.cc"/>
+      <File RelativePath="rules\sprite_images.cc"/>
+      <File RelativePath="rules\serve_resources_from_a_consistent_url.cc"/>
+      <File RelativePath="rules\serve_scaled_images.cc"/>
+      <File RelativePath="rules\specify_a_vary_accept_encoding_header.cc"/>
+      <File RelativePath="rules\minify_rule.cc"/>
+      <File RelativePath="rules\specify_charset_early.cc"/>
+      <File RelativePath="rules\minify_html.cc"/>
+      <File RelativePath="rules\prefer_async_resources.cc"/>
+      <File RelativePath="rules\minify_css.cc"/>
+      <File RelativePath="rules\avoid_css_import.cc"/>
+    </Filter>
+  </Files>
+  <Globals/>
+</VisualStudioProject>
